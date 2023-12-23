@@ -13,6 +13,7 @@ const AppContainer = styled.div`
   height: 100vh;
   width: 100vw;
   background-color: black;
+  font-family: 'Roboto', sans-serif;
   `;
 
 const App = () => {
