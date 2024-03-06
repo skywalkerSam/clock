@@ -1,1 +1,2 @@
-# A Simple Clock made with React :)
+# Clock
+A simple clock made with React.

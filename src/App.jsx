@@ -1,8 +1,13 @@
 // Dev: @skywalkerSam
-// Purpose: A simple digital clock
+// Purpose: A Simple Clock
 // Date: 12023.12.21.1712
 
-import { useState, useEffect} from "react";
+/* TODOs:
+- Show time acc. to IP origin
+
+*/
+
+import { useState, useEffect } from "react";
 import styled from 'styled-components';
 import 'tachyons';
 
@@ -33,7 +38,7 @@ const App = () => {
   const [cDate, setDate] = useState(currentDate);
 
   const updateTime = () => {
-    let newTime = new Date().toLocaleString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false});
+    let newTime = new Date().toLocaleString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
     setTime(newTime);
   };
 
@@ -74,7 +79,7 @@ const App = () => {
 
   return (
     <AppContainer>
-      <div className="red">
+      <div className="red hover-green">
         <h1>{cTime}</h1>
         {/* <h4>{cDay}</h4> */}
         {/* <h5>{cDate}</h5> */}
