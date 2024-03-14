@@ -1,5 +1,5 @@
 // Dev: @skywalkerSam
-// Purpose: A Simple Clock
+// Purpose: Clock
 // Date: 12023.12.21.1712
 
 /* TODOs:
@@ -17,8 +17,6 @@ const AppContainer = styled.div`
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: black;
-  font-family: 'Roboto', sans-serif;
   `;
 
 const App = () => {
